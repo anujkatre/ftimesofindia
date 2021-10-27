@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+}
+img {
+  cursor: pointer;
+}
+p {
+  cursor: pointer;
+}
+.everything {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.div1 {
+  margin-right: 100px;
+}
+.div2 {
+  max-width: 400px;
+}
+.mostpopular {
+  margin-bottom: 5px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(66, 65, 65);
+}
+.head-left {
+  padding-left: 200px;
+  color: white;
+}
+.head-right {
+  padding-right: 200px;
+  color: white;
+  display: flex;
+}
+.icon {
+  height: 20px;
+  border-radius: 70%;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.timesofindia {
+  background-color: black;
+}
+.roman p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 52px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+.weather {
+  display: flex;
+  justify-content: center;
+
+  color: white;
+}
+.small1 {
+  font-size: 12px;
+  display: inline-block;
+}
+
+.small2 {
+  font-size: 13px;
+}
+.red1 {
+  background-color: rgb(182, 24, 24);
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
+}
+.red1-btn {
+  color: white;
+  margin-left: 8px;
+}
+.red1-btn:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  transition: background-color 1s ease-out 100ms;
+}
+.blogs {
+  display: flex;
+  padding: 13px;
+  padding-left: 0;
+}
+.blogs img {
+  height: 80px;
+  width: 140px;
+}
+.content {
+  display: flex;
+  justify-content: space-betweens;
+}
+.buttons {
+  margin-bottom: 5px;
+}
+.btn {
+  background-color: grey;
+  color: beige;
+  padding: 5px;
+}
+.btn:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: background-color 1s ease-out 100ms;
+}
+.news {
+  font-size: 13px;
+}
+.news1 {
+  display: flex;
+}
+.news1 img {
+  height: 50px;
+}
+.bold-text {
+  font-weight: bold;
+  margin: 25px;
+  font-size: 24px;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+.bold {
+  font-weight: bold;
+}
+
+.height {
+  height: 2px;
+  background-color: black;
+}
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 32px;
+}
+.mostshared {
+  margin-top: 12px;
+  font-size: 12px;
+}
+.mostshared::before,
+.mostshared::after {
+  background-color: black;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 20%;
+}
+.footer {
+  border-top: 4px solid rgb(199, 26, 20);
+  background-image: url("80278532-dark-carbon-fiber-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.foot-btn:hover {
+  color: rgb(202, 159, 207);
+  transition: color 1s ease-out 100ms;
+  cursor: pointer;
+}
+.flex-3 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+h6 {
+  font-size: 15px;
+  color: rgb(232, 189, 236);
+}
+h6::after {
+  background-color: rgb(232, 189, 236);
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 70%;
+}
+h6::before {
+  background-color: rgb(232, 189, 236);
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 2%;
+}
+.flex-3 > * {
+  flex: 1 1 30%;
+  margin-right: 15px;
+  color: white;
+}
+.copyright {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 12px;
+  padding: 12px;
+}
